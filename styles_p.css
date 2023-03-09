@@ -1,0 +1,124 @@
+* {
+ margin: 0;
+ overflow-x: hidden;
+ box-sizing: border-box;
+}
+
+header {
+ background-color: black;
+ width: 100vw;
+ color: white;
+ border-right: -40px;
+ border-bottom: 4px solid #fdb347;
+ display: flex;
+ height: 100px;
+ position: fixed;
+ z-index: 1;
+}
+
+h2 {
+ display: flex;
+ justify-content: flex-start;
+ position: fixed;
+ left: 80px;
+ top: 15px;
+ font-size: 40px;
+}
+
+nav > ul {
+ font-size: 20px;
+ list-style: none;
+ display: flex;
+ justify-content: space-evenly;
+  gap: 30px;
+  position: fixed;
+  left: 1580px;
+  top: 29px;
+}
+
+nav > ul > li {
+ font-size: 25px;
+}
+
+nav > ul > li > a {
+ color: azure;
+ text-decoration: none;
+}
+
+.about {
+ background-color: brown;
+ height: 1000px;
+}
+
+h1 {
+ font-size: 80px;
+ color: azure;
+ position: relative;
+ left: 850px;
+ top: 450px;
+}
+
+.art {
+ background-color:midnightblue ;
+ height: 961px;
+}
+
+.gallery {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ gap: 16px;
+ max-width: 1400px;
+ margin: 0 auto;
+ padding: 20px 10px;
+}
+
+.gallery img {
+ width: 100%;
+ max-width: 350px;
+ object-fit: cover;
+ border-radius: 10px;
+}
+
+.contact {
+ background-color: black;
+ height: 861px;
+}
+
+h3 {
+ font-size: 80px;
+ color: azure;
+ position: relative;
+ left: 580px;
+ top: 310px;
+}
+
+.cn {
+ position: relative;
+ left: 810px;
+ top: 330px;
+}
+
+.contact > .cn > a {
+ font-size: 40px;
+ color: azure;
+}
+
+.cn2, .cn3 {
+ font-size: 30px;
+ color: azure;
+}
+
+.cn2 {
+ position: relative;
+ left: 800px;
+ top: 350px;
+}
+
+.cn3 {
+ position: relative;
+ left: 805px;
+ top: 360px;
+}
